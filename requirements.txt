@@ -1,0 +1,5 @@
+echo Installing dependencies...
+pip install -r requirements.txt || echo "No requirements file"
+echo Build started
+python app.py || echo "No app file"
+echo Build completed
